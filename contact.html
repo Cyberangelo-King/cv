@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metadata-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <h3>Contact Me:</h3>
+    <!--Basic Info-->
+   <ul> <li title="Phone Number"><a href="tel:+2348079617768">Call My Phone</a></li>
+    <li title="E-mail"><a href="mailto:faithakinboyejo@gmail.com">My Gmail</a></li>
+    <li title="My Address"><address>123 Adeola street, Fictional lane, Fictional Country</address></li>
+</ul>
+    <button><a title="Homepage" href="index.html">Go Home</a></button>
+    <button><a title="My Hobbies" href="Hobbies.html">My Hobbies</a></button>
+<hr>
+<!--Contact Form-->
+<h3>Contact Form</h3>
+    <p>Please fill the form below and smash the SUBMIT button</p>
+        <form name="Contact Form" action="mailto:faithakinboyejo@gmail.com" method="post" enctype="text/plain">
+            <label for="yourName">Your Name:</label>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <input placeholder="First Name..." style="margin-top: 5px; border-radius: 5px;" type="text" name="Client First Name">
+                    </td>
+                    <td>
+                        <input style="margin-top: 5px; border-radius: 5px;" type="text" name="Client Last Name" placeholder="Last Name...">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <label for="Phone Number">Phone Number:</label>
+                        <input placeholder="08012345678" style="margin-top: 5px; border-radius: 5px;" type="tel" name="Client Phone Number">
+                    </td>
+                    <td>
+                        <label for="user_email">E-mail:</label>
+                        <input style="margin-top: 5px; border-radius: 5px;" type="email" name="Client E-mail"  placeholder="abcd@sample.com">
+                    </td>
+                    <td>
+                        <label for="email_list_signup">Do You Want To Sign Up To My E-mail list?</label>
+                        <input type="checkbox" name="Email List Signup Checkbox" id="email_list_signup">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <label for="user_message">Your Message</label>
+            <br>
+            <textarea placeholder="Tell Me Something..." style="border-radius: 5px;" name="Client Message"  cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
